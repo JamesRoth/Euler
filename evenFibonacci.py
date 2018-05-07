@@ -14,3 +14,4 @@ while num<4000000:
 for item in fib:
     if item%2==0:
         total+=item
+print(total)
