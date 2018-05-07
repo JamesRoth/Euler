@@ -4,9 +4,12 @@
 
 total = 0
 
-for i in range(3,1000,3):
+for i in range(3,1003,3):
+    print(i)
     total+=i
 
-for i in range(5,1000,5):
+for i in range(5,1005,5):
+    print(i)
     total+=i
+
 print(total)
