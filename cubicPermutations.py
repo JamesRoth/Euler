@@ -6,4 +6,6 @@ cubeMe=1
 done=0
 
 while done==0:
-    
+    cube=cubeMe**3
+    for num in cube:
+        
