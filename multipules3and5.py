@@ -5,7 +5,7 @@
 total=0
 i=3
 add=2
-while i<1000:
+while i<1001:
     total+=i
     if add==2:
         i+=add
