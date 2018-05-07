@@ -3,6 +3,10 @@
 #mulipules3and5.py
 
 total=0
-for i in range(1,1001,5):
+i=3
+add=2
+while i<1000:
     total+=i
-    print(total)
+    if add==2:
+        i+=add
+print(total)
