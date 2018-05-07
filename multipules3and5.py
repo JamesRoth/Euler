@@ -2,7 +2,7 @@
 #5/7/18
 #mulipules3and5.py
 
-total = []
+total = 0
 
 for i in range(3,1000,3):
     total+=i
