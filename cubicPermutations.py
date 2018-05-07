@@ -4,8 +4,9 @@
 
 cubeMe=1
 done=0
+origPermute=[]
 
 while done==0:
     cube=cubeMe**3
     for num in cube:
-        
+        origPermute.append
