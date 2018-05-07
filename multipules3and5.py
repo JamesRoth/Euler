@@ -2,15 +2,11 @@
 #5/7/18
 #mulipules3and5.py
 
-total=0
-i=3
-add=2
-while i<1001:
+total = 0
+
+for i in range(3,1001,3):
     total+=i
-    if add==2:
-        i+=add
-        add=3
-    if add==3:
-        i+=add
-        add=2
+
+for i in range(5,1001,5):
+    total+=i
 print(total)
