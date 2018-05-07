@@ -9,4 +9,8 @@ while i<1000:
     total+=i
     if add==2:
         i+=add
+        add=3
+    if add==3:
+        i+=add
+        add=2
 print(total)
