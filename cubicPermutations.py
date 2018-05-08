@@ -17,5 +17,6 @@ while done==0:
 """
 
 list1 = ["a", "b", "c", "d"]
-for p in permutations(list1):
+num=12345
+for p in permutations(str(num)):
     print(p)
