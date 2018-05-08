@@ -4,6 +4,13 @@
 
 from itertools import permutations
 
+def consolidate(permute): #the permuated numbers are lists within a list, this just makes them into numbers in a list
+    for i in range(0,len(permute)):
+        num=0
+        for item in permute[i]:
+            num.join(item)
+        permute[i]=num
+    print(permute)
 
 cubeMe=10
 done=0
