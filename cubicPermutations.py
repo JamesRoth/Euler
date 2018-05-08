@@ -2,7 +2,7 @@
 #5/7/18
 #cubicPermuations.py - smallest cube that can be permuted into 5 different cubes
 
-print(1000**(1./3.))
+print(1000**(1/3))
 """
 from itertools import permutations
 
