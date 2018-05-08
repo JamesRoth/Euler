@@ -16,6 +16,6 @@ while done==0:
         origPermute.append
 """
 
-list1 = ["a", "b", c", "d"]
+list1 = ["a", "b", "c", "d"]
 for p in permutations(list1):
     print(p)
