@@ -10,10 +10,7 @@ def consolidate(permute):#the permuated numbers are lists within a list, this ju
         num=0
         for item in permute[i]:
             print(permute[i])
-            print(item)
-            print(num)
             num=int(str(num)+str(item))
-            print(num)
         permute[i]=num
     print(permute)
 
