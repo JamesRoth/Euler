@@ -10,7 +10,7 @@ done=0
 
 while done==0:
     cube=cubeMe**3
-    list1=[permutations(str(num))]
+    list1=[permutations(str(cube))]
     print(list1)
     done=1
 
