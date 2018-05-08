@@ -22,7 +22,7 @@ def consolidate(permute): #the permuated numbers are lists within a list, this j
 cubeMe=1 #number to be cubed
 done=0
 
-while done==0:
+while cubeMe==25:
     fiveCubes=0
     cube=cubeMe**3
     list1=[]
@@ -32,7 +32,7 @@ while done==0:
     for item in list1:
         if abs(round(item**(1/3),0) - (item**(1/3))) < 0.0000000001:
             fiveCubes+=1
-    if fiveCubes==5 or cubeMe==100:
+    if fiveCubes==5:
         print(cubeMe)
         done=1
     else:
