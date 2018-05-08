@@ -8,7 +8,7 @@ def consolidate(permute): #the permuated numbers are lists within a list, this j
     for i in range(0,len(permute)):
         num=0
         for item in permute[i]:
-            num.join(item)
+            num=num~item
         permute[i]=num
     print(permute)
 
@@ -21,7 +21,7 @@ while done==0:
     for p in permutations(str(cube)):
         list1.append(p)
     done=1
-    print(list1)
+    consolidate(list1)
 
 """
 listTest = ["a", "b", "c", "d"]
