@@ -11,6 +11,8 @@ done=0
 while done==0:
     cube=cubeMe**3
     list1=[permutations(str(num))]
+    print(list1)
+    done=1
 
 """
 list1 = ["a", "b", "c", "d"]
