@@ -8,7 +8,9 @@ def consolidate(permute):#the permuated numbers are lists within a list, this ju
     num=0
     for i in range(0,len(permute)):
         for item in permute[i]:
+            print(permute[i])
             num=num~item
+            print(num)
         permute[i]=num
     print(permute)
 
