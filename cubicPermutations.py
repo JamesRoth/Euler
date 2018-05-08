@@ -2,6 +2,8 @@
 #5/7/18
 #cubicPermuations.py - smallest cube that can be permuted into 5 different cubes
 
+print(1000**(1./3.))
+"""
 from itertools import permutations
 
 def consolidate(permute):#the permuated numbers are lists within a list, this just makes them into numbers in a list
@@ -23,7 +25,8 @@ while done==0:
         list1.append(p)
     list1=consolidate(list1)
     for item in list1:
-        if item
+        if item**(1/3)
     
     
     done=1
+"""
