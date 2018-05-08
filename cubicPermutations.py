@@ -19,10 +19,10 @@ def consolidate(permute): #the permuated numbers are lists within a list, this j
         permute[i]=num
     return(permute)
 
-cubeMe=1 #number to be cubed
+cubeMe=5027 #number to be cubed
 done=0
 
-while cubeMe<100:
+while cubeMe==127035954683:
     fiveCubes=0
     cube=cubeMe**3
     list1=[]
