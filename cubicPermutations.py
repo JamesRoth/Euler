@@ -36,4 +36,5 @@ while done==0:
         print(cubeMe)
         done=1
     else:
+        fiveCubes=0
         cubeMe+=1
