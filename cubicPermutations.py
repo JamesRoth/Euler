@@ -10,22 +10,20 @@ def consolidate(permute):#the permuated numbers are lists within a list, this ju
         for item in permute[i]:
             num=int(str(num)+str(item))
         permute[i]=num
-    print(permute)
+    return(permute)
 
-cubeMe=7
+cubeMe=1 #number to be cubed
 done=0
 
 while done==0:
+    fiveCubes=0
     cube=cubeMe**3
     list1=[]
     for p in permutations(str(cube)):
         list1.append(p)
+    list1=consolidate(list1)
+    for item in list1:
+        if item
+    
+    
     done=1
-    consolidate(list1)
-
-"""
-listTest = ["a", "b", "c", "d"]
-num=12345
-for p in permutations(str(num)):
-    print(p)
-"""
