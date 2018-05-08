@@ -2,11 +2,13 @@
 #5/7/18
 #cubicPermuations.py - smallest cube that can be permuted into 5 different cubes
 
+"""
 if abs(round(1000**(1/3),0) - (1000**(1/3))) < 0.0000000001:
     print("sucess")
 
 print(1000**(1/3))
 """
+
 from itertools import permutations
 
 def consolidate(permute): #the permuated numbers are lists within a list, this just makes them into numbers in a list
@@ -28,8 +30,10 @@ while done==0:
         list1.append(p)
     list1=consolidate(list1)
     for item in list1:
-        if item**(1/3)
-    
-    
-    done=1
-"""
+        if abs(round(cube**(1/3),0) - (cube**(1/3))) < 0.0000000001:
+            fiveCubes+=1
+    if fiveCubes==5:
+        print(cubeMe)
+        done=1
+    else:
+        cubeMe+=1
