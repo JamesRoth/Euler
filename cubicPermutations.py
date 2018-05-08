@@ -4,9 +4,9 @@
 
 from itertools import permutations
 
-def consolidate(permute): #the permuated numbers are lists within a list, this just makes them into numbers in a list
+def consolidate(permute):#the permuated numbers are lists within a list, this just makes them into numbers in a list
+    num=0
     for i in range(0,len(permute)):
-        num=0
         for item in permute[i]:
             num=num~item
         permute[i]=num
