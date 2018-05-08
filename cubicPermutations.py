@@ -9,12 +9,14 @@ def consolidate(permute):#the permuated numbers are lists within a list, this ju
     for i in range(0,len(permute)):
         for item in permute[i]:
             print(permute[i])
+            print(item)
+            print(num)
             num=num~item
             print(num)
         permute[i]=num
     print(permute)
 
-cubeMe=10
+cubeMe=7
 done=0
 
 while done==0:
