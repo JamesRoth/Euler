@@ -5,7 +5,7 @@
 from itertools import permutations
 
 
-cubeMe=1
+cubeMe=10
 done=0
 
 while done==0:
@@ -14,10 +14,11 @@ while done==0:
     for p in permutations(str(cube)):
         list1.append(p)
     done=1
+    print(list1)
 
-
+"""
 listTest = ["a", "b", "c", "d"]
 num=12345
 for p in permutations(str(num)):
     print(p)
-
+"""
