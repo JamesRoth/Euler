@@ -3,7 +3,7 @@
 #cubicPermuations.py - smallest cube that can be permuted into 5 different cubes
 
 if abs(round(1000**(1/3),0) - (1000**(1/3))) < 0.0000000001:
-    print(sucess)
+    print("sucess")
 
 print(1000**(1/3))
 """
