@@ -10,13 +10,14 @@ done=0
 
 while done==0:
     cube=cubeMe**3
-    list1=[permutations(str(cube))]
-    print(list1)
+    list1=[]
+    for p in permutations(str(cube)):
+        list1.append(p)
     done=1
 
-"""
-list1 = ["a", "b", "c", "d"]
+
+listTest = ["a", "b", "c", "d"]
 num=12345
 for p in permutations(str(num)):
     print(p)
-"""
+
