@@ -11,7 +11,7 @@ def consolidate(permute):#the permuated numbers are lists within a list, this ju
             print(permute[i])
             print(item)
             print(num)
-            num=num~item
+            num=int(str(num)=str(item))
             print(num)
         permute[i]=num
     print(permute)
