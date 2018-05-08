@@ -32,7 +32,7 @@ while done==0:
     for item in list1:
         if abs(round(cube**(1/3),0) - (cube**(1/3))) < 0.0000000001:
             fiveCubes+=1
-    if fiveCubes==5:
+    if fiveCubes==5 or cubeMe==100:
         print(cubeMe)
         done=1
     else:
