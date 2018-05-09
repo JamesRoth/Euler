@@ -41,7 +41,7 @@ for p in permutations(str(127035954683)):
     print(p)
 """
 
-cubeMe=1
+cubeMe=5070
 cubes=[]
 original=[]
 numCubes=0
@@ -53,7 +53,7 @@ def checkList(cubes):
             return(orignals[i])
     return("none")
 
-while numCubes!=5:
+while numCubes!=5 and cubeMe<5080:
     cubes.append(cubeMe**3)
     original.append(cubeMe)
     ans = checkList(cubes)
