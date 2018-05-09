@@ -46,5 +46,6 @@ cubes=[]
 fiveCubes=0
 
 while fiveCubes!=5:
+    cubes.append(cubeMe**3)
     
 
