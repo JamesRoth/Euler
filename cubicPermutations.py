@@ -45,6 +45,7 @@ cubeMe=1
 cubes=[]
 original=[]
 numCubes=0
+
 def sortInt(num):
     listSort=[]
     for item in num:
@@ -57,7 +58,7 @@ def sortInt(num):
 
 def checkList(cubes):
     for i in range(0,len(cubes)):
-        if cubes.count(sortInt(cubes[i])) == 5:
+        if cubes.count(cubes[i]) == 5:
             return(orignals[i])
     return("none")
 
