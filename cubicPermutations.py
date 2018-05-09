@@ -61,7 +61,7 @@ def checkList(cubes):
         cubes[i]=sortInt(cubes[i])
     for i in range(0,len(cubes)): #checks sorted list for matches
         if cubes.count(cubes[i]) == 5: #if exactly five matches, return cube that matched
-            return(orignals[i])
+            return(original[i])
     return("none")
 
 while numCubes!=5 and cubeMe<6001: #main loop
