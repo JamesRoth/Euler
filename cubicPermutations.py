@@ -45,7 +45,12 @@ cubeMe=1
 cubes=[]
 fiveCubes=0
 
+def checkList(cubes):
+    cubes.sort()
+    
+
 while fiveCubes!=5:
     cubes.append(cubeMe**3)
+    checkList(cubes)
     
 
