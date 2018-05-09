@@ -7,7 +7,6 @@ if abs(round(1000**(1/3),0) - (1000**(1/3))) < 0.0000000001:
     print("sucess")
 
 print(1000**(1/3))
-"""
 
 from itertools import permutations
 
@@ -37,7 +36,15 @@ while cubeMe==5027:
         done=1
     else:
         cubeMe+=1
-"""
+        
 for p in permutations(str(127035954683)):
     print(p)
 """
+
+cubeMe=1
+cubes=[]
+fiveCubes=0
+
+while fiveCubes!=5:
+    
+
