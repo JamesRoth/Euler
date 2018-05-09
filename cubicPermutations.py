@@ -48,7 +48,7 @@ numCubes=0
 
 def sortInt(num): #sorts an individual list item
     listSort=[]
-    for i in range(0, len(num)):
+    for i in range(0, len(str(num))):
         listSort.append(num[i])
     listSort.sort()
     newNum=0
