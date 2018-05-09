@@ -57,6 +57,8 @@ def sortInt(num):
     return(newNum)
 
 def checkList(cubes):
+    for i in range(0,len(cubes):
+        cubes[i]=sortInt(cubes[i])
     for i in range(0,len(cubes)):
         if cubes.count(cubes[i]) == 5:
             return(orignals[i])
