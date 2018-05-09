@@ -43,14 +43,16 @@ for p in permutations(str(127035954683)):
 
 cubeMe=1
 cubes=[]
-fiveCubes=0
+numCubes=0
 
 def checkList(cubes):
     cubes.sort()
-    
+    for item in list:
+        if cubes.count(item) == 5:
+            return(5)
 
-while fiveCubes!=5:
+while numCubes!=5:
     cubes.append(cubeMe**3)
-    checkList(cubes)
-    
-
+    if checkList(cubes) == 5:
+        return (
+    cubeMe+=1
