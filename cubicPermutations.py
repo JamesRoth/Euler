@@ -46,7 +46,7 @@ cubes=[]
 original=[]
 numCubes=0
 
-def sortInt(num):
+def sortInt(num): #sorts an individual list item
     listSort=[]
     for item in num:
         listSort.append(num)
@@ -57,17 +57,17 @@ def sortInt(num):
     return(newNum)
 
 def checkList(cubes):
-    for i in range(0,len(cubes):
+    for i in range(0,len(cubes): #sorts each item in the list
         cubes[i]=sortInt(cubes[i])
-    for i in range(0,len(cubes)):
-        if cubes.count(cubes[i]) == 5:
+    for i in range(0,len(cubes)): #checks sorted list for matches
+        if cubes.count(cubes[i]) == 5: #if exactly five matches, return cube that matched
             return(orignals[i])
     return("none")
 
-while numCubes!=5 and cubeMe<5080:
+while numCubes!=5 and cubeMe<5080: #main loop
     cubes.append(cubeMe**3)
     original.append(cubeMe)
     ans = checkList(cubes)
-    if ans != "none":
+    if ans != "none": #if match returned, print match
         print(ans)
     cubeMe+=1
