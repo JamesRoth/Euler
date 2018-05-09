@@ -48,12 +48,15 @@ numCubes=0
 
 def checkList(cubes):
     cubes.sort()
-    for item in list:
-        if cubes.count(item) == 5:
-            return(5)
+    for i in range(0,len(cubes)):
+        if cubes.count(cubes[i]) == 5:
+            return(orignals[i])
+    return("none")
 
 while numCubes!=5:
     cubes.append(cubeMe**3)
-    if checkList(cubes) == 5:
+    original.append(cubeMe)
+    ans = checkList(cubes)
+    if checkList(cubes) != "none":
         return()
     cubeMe+=1
