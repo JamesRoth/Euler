@@ -57,6 +57,6 @@ while numCubes!=5:
     cubes.append(cubeMe**3)
     original.append(cubeMe)
     ans = checkList(cubes)
-    if checkList(cubes) != "none":
-        return()
+    if ans != "none":
+        return(ans)
     cubeMe+=1
