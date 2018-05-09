@@ -58,5 +58,5 @@ while numCubes!=5 and cubeMe<5080:
     original.append(cubeMe)
     ans = checkList(cubes)
     if ans != "none":
-        return(ans)
+        print(ans)
     cubeMe+=1
