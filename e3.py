@@ -24,8 +24,6 @@ from math import *
 
 end = [3, 7, 9, 1]
 
-print(prime(23))
-
 def prime(num):
     if int(str(num)[-1]) in end:
         i=2
@@ -35,6 +33,9 @@ def prime(num):
         return("yes")
     else:
         return("no")
+
+print(prime(23))
+
 """
 for i in range(floor(num**0.5),1,-1):
     if num%i==0 and i!=num:
