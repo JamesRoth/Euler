@@ -2,7 +2,7 @@
 #5/7/18
 #cubicPermuations.py - smallest cube that can be permuted into 5 different cubes
 
-cubeMe=1
+cubeMe=0
 cubes=[]
 
 def sortInt(num): #sorts an individual list item
@@ -20,7 +20,7 @@ def checkList(cubes):
         if cubes.count(cubes[i]) == 6: #if exactly five (+1 for the original) matches, return cube that matched
             print(cubes[i])
             print(i)
-            return(i+1)
+            return(i)
     return("none")
 
 while cubeMe<6001: #main loop
