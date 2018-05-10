@@ -1,3 +1,4 @@
+"""
 data={}
 data["factors"] = []
 data["num1"] = 600851475143
@@ -14,3 +15,16 @@ def loopMe(num):
             loopMe(num)
 
 loopMe(data["num1"])
+"""
+
+num = 600851475143
+factors=[]
+
+from math import *
+
+for i in range(floor(num**0.5),1,-1):
+    if num%i==0:
+        num=num/i
+        factors.append(i)
+        print(factors)
+        print(num)
