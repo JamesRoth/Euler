@@ -26,4 +26,6 @@ while cubeMe<=6000: #main loop
         ans = checkList(cubes)
         if ans != "none": #if match returned, print match
             print("Ans: ", ans)
+        if ans == "none":
+            print("Failed")
     cubeMe+=1
