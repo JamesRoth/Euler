@@ -30,6 +30,7 @@ def prime(num):
         while num>i:
             if num%i==0 and num!=i:
                 return("no")
+            i+=1
         return("yes")
     else:
         return("no")
