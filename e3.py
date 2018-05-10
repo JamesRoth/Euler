@@ -22,19 +22,15 @@ factors=[]
 
 from math import *
 
-end = [3, 7, 9, 1]
 
 def prime(num):
-    if int(str(num)[-1]) in end:
-        i=2
-        while num>i:
-            if num%i==0 and num!=i:
-                return("no")
-            i+=1
-        return("yes")
-    else:
-        return("no")
-        
+    i=2
+    while num>i:
+        if num%i==0 and num!=i:
+            return("no")
+        i+=1
+    return("yes")
+
 for i in range(floor(num**0.5),1,-1):
     if num%i==0 and i!=num and prime(num)=="yes":
         num=num/i
