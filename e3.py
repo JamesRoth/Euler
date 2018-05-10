@@ -26,6 +26,6 @@ for i in range(floor(num**0.5),1,-1):
     if num%i==0 and i!=num:
         num=num/i
         factors.append(i)
-        print(factors)
         print(num)
+        print(factors)
 print(num)
