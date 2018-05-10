@@ -13,8 +13,8 @@ def sortInt(num): #sorts an individual list item
     return(listSort)
 
 def checkList(cubes):
-    for i in range(6000,len(cubes),-1): #checks sorted list for matches
-        print(cubes[i])
+    for i in range(0,len(cubes)): #checks sorted list for matches
+        print("Hello: ", cubes[i])
         if cubes.count(cubes[i]) == 6: #if exactly five (+1 for the original) matches, return cube that matched
             print(cubes[i])
             print(i)
