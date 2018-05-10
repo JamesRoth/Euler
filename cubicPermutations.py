@@ -8,7 +8,7 @@ cubes=[]
 def sortInt(num): #sorts an individual list item
     listSort=[]
     for i in range(0, len(str(num))):
-        listSort.append(str(num)[i])
+        listSort.append(int(str(num)[i]))
     listSort.sort()
     return(listSort)
 
