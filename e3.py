@@ -28,3 +28,4 @@ for i in range(floor(num**0.5),1,-1):
         factors.append(i)
         print(factors)
         print(num)
+print(num)
