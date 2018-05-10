@@ -4,7 +4,6 @@
 
 cubeMe=1
 cubes=[]
-original=[]
 
 def sortInt(num): #sorts an individual list item
     listSort=[]
@@ -21,12 +20,11 @@ def checkList(cubes):
         if cubes.count(cubes[i]) == 6: #if exactly five (+1 for the original) matches, return cube that matched
             print(cubes[i])
             print(i)
-            return(original[i])
+            return(i+1)
     return("none")
 
 while cubeMe<6001: #main loop
     cubes.append(sortInt(cubeMe**3))
-    original.append(cubeMe)
     if cubeMe == 6000:
         ans = checkList(cubes)
         if ans != "none": #if match returned, print match
