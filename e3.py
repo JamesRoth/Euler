@@ -24,16 +24,18 @@ from math import *
 
 end = [3, 7, 9, 1]
 
+print(prime(23))
+
 def prime(num):
     if int(str(num)[-1]) in end:
         i=2
         while num>i:
-            if num%==0 and num!=i:
+            if num%i==0 and num!=i:
                 return("no")
         return("yes")
     else:
         return("no")
-
+"""
 for i in range(floor(num**0.5),1,-1):
     if num%i==0 and i!=num:
         num=num/i
@@ -41,3 +43,4 @@ for i in range(floor(num**0.5),1,-1):
         print(num)
         print(factors)
 print(num)
+"""
