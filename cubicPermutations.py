@@ -10,9 +10,6 @@ def sortInt(num): #sorts an individual list item
     for i in range(0, len(str(num))):
         listSort.append(str(num)[i])
     listSort.sort()
-    newNum=0
-    for item in listSort:
-        newNum = int(str(newNum)+str(item))
     return(listSort)
 
 def checkList(cubes):
