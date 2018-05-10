@@ -33,5 +33,5 @@ while numCubes!=5 and cubeMe<6001: #main loop
     if cubeMe == 6000:
         ans = checkList(cubes)
         if ans != "none": #if match returned, print match
-            print(ans)
+            print("Ans: ", ans)
     cubeMe+=1
