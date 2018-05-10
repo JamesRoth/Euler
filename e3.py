@@ -1,5 +1,6 @@
-factors = []
-num1 = 600851475143
+data={}
+data["factors"] = []
+data["num1"] = 600851475143
 
 from math import *
 
