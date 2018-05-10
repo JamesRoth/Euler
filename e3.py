@@ -7,10 +7,10 @@ from math import *
 def loopMe(num):
     for i in range(floor(num**0.5),2,-1):
         if num%i==0:
-            num1=num/i
-            factors.append(i)
+            data["num1"]=num/i
+            data["factors"].append(i)
             print(num)
-            print(factors)
+            print(data["factors"])
             loopMe(num)
 
-loopMe(num1)
+loopMe(data"[num1"])
