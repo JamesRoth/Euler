@@ -22,7 +22,6 @@ factors=[]
 
 from math import *
 
-
 def prime(num):
     i=2
     while num>i:
@@ -32,7 +31,7 @@ def prime(num):
     return("yes")
 
 for i in range(floor(num**0.5),1,-1):
-    if num%i==0 and i!=num and prime(num)=="yes":
+    if num%i==0 and prime(i)=="yes":
         num=num/i
         factors.append(i)
         print(num)
