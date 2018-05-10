@@ -18,6 +18,7 @@ def checkList(cubes):
             print(cubes[i])
             print(i)
             return(i)
+    print(cubes)
     return("none")
 
 while cubeMe<=6000: #main loop
