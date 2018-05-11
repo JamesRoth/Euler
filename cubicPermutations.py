@@ -21,7 +21,7 @@ def checkList(cubes):
     print(cubes)
     return("none")
     """
-    test=5028
+    test=5027
     print(cubes.count(cubes[test]))
     print(cubes[test])
 
