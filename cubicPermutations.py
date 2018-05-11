@@ -14,7 +14,7 @@ def sortInt(num): #sorts an individual list item
 
 def checkList(cubes):
     for i in range(len(cubes)-1,0,-1): #checks sorted list for matches
-        if cubes.count(cubes[i]) == 4: #if exactly five matches, return cube that matched
+        if cubes.count(cubes[i]) == 3: #if exactly five matches, return cube that matched
             print(cubes[i])
             print(i)
             return(i)
