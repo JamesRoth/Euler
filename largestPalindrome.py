@@ -6,7 +6,7 @@ def palindrome(num):
     list1 = []
     for i in range(0, len(str(num))):
         list1.append(int(str(num)[i]))
-    if list1.reverse == "none":
+    try list1.reverse:
         print("yes")
     else:
         print("no")
