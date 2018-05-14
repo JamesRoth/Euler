@@ -12,3 +12,4 @@ def palindrome(num):
         print("no")
 
 palindrome(1001)
+palindrome(1221)
