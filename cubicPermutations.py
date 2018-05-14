@@ -22,7 +22,7 @@ def checkList(cubes):
     return("none")
     """
     answer = [0, 1, 2, 3, 3, 4, 5, 5, 6, 7, 8, 9]
-    test=[0, 1, 2, 3, 4, 5, 6, 6]
+    test = [0, 1, 2, 3, 4, 5, 6, 6]
     print("Test:", cubes.count(test))
     print("AnswerTest:", cubes.count(answer))
 
