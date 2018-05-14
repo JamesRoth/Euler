@@ -24,7 +24,7 @@ def checkList(cubes):
     
     test=[0, 1, 2, 3, 4, 5, 6, 6]
     print(cubes.count(test))
-    print(cubes[test])
+    print(test)
     
 
 while cubeMe<=6000: #main loop
