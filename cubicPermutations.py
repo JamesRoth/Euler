@@ -13,18 +13,19 @@ def sortInt(num): #sorts an individual list item
     return(listSort)
 
 def checkList(cubes):
+    """
     for i in range(len(cubes)-1, 0,-1): #checks sorted list for matches
         if cubes.count(cubes[i]) == 3: #if exactly five matches, return cube that matched
             print(cubes[i])
             return(i)
     print(cubes)
     return("none")
+    """
     
-    """
-    test=5027
-    print(cubes.count(cubes[test]))
+    test=[0, 1, 2, 3, 4, 5, 6, 6]
+    print(cubes.count(test))
     print(cubes[test])
-    """
+    
 
 while cubeMe<=6000: #main loop
     cubes.append(sortInt(cubeMe**3)) #inputs cubes, then sorts them, returns a list of digits
@@ -36,5 +37,3 @@ while cubeMe<=6000: #main loop
         if ans == "none":
             print("Failed")
     cubeMe+=1
-    print(cubeMe)
-    print(cubeMe**3)
