@@ -14,3 +14,4 @@ def palindrome(num):
 
 palindrome(1001)
 palindrome(1221)
+palindrome(11034)
