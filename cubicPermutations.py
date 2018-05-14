@@ -24,7 +24,7 @@ def checkList(cubes):
     answer = [0, 1, 2, 3, 3, 4, 5, 5, 6, 7, 8, 9]
     test=[0, 1, 2, 3, 4, 5, 6, 6]
     print("Test:", cubes.count(test))
-    print("Ans:", cubes.count(answer))
+    print("AnswerTest:", cubes.count(answer))
 
 while cubeMe<=6000: #main loop
     cubes.append(sortInt(cubeMe**3)) #inputs cubes, then sorts them, returns a list of digits
