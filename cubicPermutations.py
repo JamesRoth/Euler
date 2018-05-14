@@ -26,7 +26,7 @@ def checkList(cubes):
     print("Test:", cubes.count(test))
     print("AnswerTest:", cubes.count(answer))
 
-while cubeMe<=10000: #main loop
+while cubeMe<=100000: #main loop
     cubes.append(sortInt(cubeMe**3)) #inputs cubes, then sorts them, returns a list of digits
     if cubeMe == 6000:
         ans = 0
