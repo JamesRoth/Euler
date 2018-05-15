@@ -20,4 +20,5 @@ for i in range(999,99,-1):
 """
 
 for i in range(100*100, 999*999):
-    
+    palindrome(num)
+print(palindrome)
