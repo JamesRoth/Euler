@@ -9,7 +9,7 @@ def palindrome(num):
     list2 = list1[:]
     list2.reverse()
     if list1 == list2:
-        palindromes = []
+        palindromes.append(num)
 
 palindromes = []
 
@@ -17,8 +17,9 @@ palindromes = []
 for i in range(999,99,-1):
     for i2 in range(999,99,-1):
         palindrome(i*i2)
-"""
+
 
 for i in range(100*100, 999*999):
     palindrome(i)
 print(palindromes)
+"""
