@@ -13,4 +13,5 @@ def palindrome(num):
 
 largestP = 0
 
-for i in range(
+for i in range(999,99,-1):
+    
