@@ -9,10 +9,8 @@ def palindrome(num):
     list2 = list1[:]
     list2.reverse()
     if list1 == list2:
-        print("yes")
-    else:
-        print("no")
+        largestP = num
 
-palindrome(1001)
-palindrome(1221)
-palindrome(11034)
+largestP = 0
+
+for i in range(
