@@ -14,7 +14,7 @@ def palindrome(num):
 palindromes = []
 
 for i in range(999,99,-1):
-    for i2 in range(999,99,-1):
+    for i2 in range(i,99,-1):
         num = i*i2
-        if num>max(palindromes)
-        palindrome(num)
+        if num>max(palindromes):
+            palindrome(num)
