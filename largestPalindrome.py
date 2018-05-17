@@ -11,7 +11,7 @@ def palindrome(num):
     if list1 == list2:
         palindromes.append(num)
 
-palindromes = []
+palindromes = [0]
 
 for i in range(999,99,-1):
     for i2 in range(i,99,-1):
