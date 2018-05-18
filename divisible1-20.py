@@ -11,7 +11,7 @@ while True:
     for item in factors:
         if num%item == 0:
             check+=1
-    if check == 19:
+    if check == 18:
         print(num)
         break
     num+=2
