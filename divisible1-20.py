@@ -1,17 +1,8 @@
-#James Roth
-#5/17/18
-#divisible1-20.py - smallest number that is divisible by 1-20 evenly
+for i in range(1,101):
+    num1+=i**2
 
-num = 4849845
+for i in range(1,101):
+    num2+=i
+num2=num2**2
 
-factors = [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
-
-while True:
-    check = 0
-    for item in factors:
-        if num%item == 0:
-            check+=1
-    if check == 19:
-        print(num)
-        break
-    num+=4849845
+print(num2-num1)
