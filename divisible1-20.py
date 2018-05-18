@@ -14,4 +14,4 @@ while True:
     if check == 19:
         print(num)
         break
-    num+=20
+    num+=4849845
