@@ -12,7 +12,7 @@ def sieve(num):
             a[j] = 0
     return(a)
     
-list1 = sieve(100000)
+list1 = sieve(100030)
 
 count = 0
 
