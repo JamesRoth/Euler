@@ -3,3 +3,5 @@
 #10001stPrime.py - finding the 10001st prime number
 
 from sieveOfE.py import sieve
+
+print(sieve(30))
