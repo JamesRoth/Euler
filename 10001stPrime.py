@@ -21,3 +21,4 @@ for i in range(0, len(list1)):
         count+=1
     if count == 10001:
         print(list1[i])
+print(len(list1))
