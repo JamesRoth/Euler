@@ -2,6 +2,7 @@
 #5/18/19
 #sieveOfE.py - the sieve of eratosthenes
 
+"""
 from math import sqrt,floor
 
 num = 30
@@ -13,3 +14,10 @@ for i in range(2, floor(sqrt(num))+1):
         for j in range(i**2, num):
             a[j] = False
 print(a)
+"""
+
+num = 30
+a = []
+for i in range(2, num+1):
+    a.append(i)
+
