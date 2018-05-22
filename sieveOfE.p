@@ -23,4 +23,4 @@ for i in range(2, num+1):
 
 for i in range(2, len(a)+1):
     for j in range(i*2-2, num-1):
-        
+        a[j] = 0
