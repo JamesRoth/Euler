@@ -10,3 +10,13 @@ def sieve(num):
     for i in range(2, len(a)+1):
         for j in range(i*2-2, num-1, i):
             a[j] = 0
+    return(a)
+    
+list1 = sieve(100000)
+
+count = 0
+
+for i in range(0, len(list1)):
+    if list1[i] != 0:
+        count+=1
+    
