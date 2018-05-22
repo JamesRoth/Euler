@@ -21,3 +21,4 @@ a = []
 for i in range(2, num+1):
     a.append(i)
 
+for i in range(0, len(a)-1)
