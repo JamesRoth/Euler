@@ -31,7 +31,7 @@ def product(list1):
         product = product*item
     return(product)
 
-for i in range(1, len(num)):
+for i in range(1, len(str(num))):
     products.append(product(numbers))
     list1=int(str(list1)[1:])
     numbers.append(num[entry-1])
