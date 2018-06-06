@@ -35,4 +35,4 @@ for i in range(1, len(num)):
     products.append(product(numbers))
     list1=list1[1:]
     numbers.append(num[entry-1])
-    
+print(max(products))
