@@ -31,4 +31,5 @@ def product(list1):
     return(product)
 
 for i in range(1, len(num)):
+    products.append(product(numbers))
     
