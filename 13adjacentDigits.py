@@ -34,6 +34,6 @@ def product(list1):
 for i in range(1, len(str(num))-13):
     products.append(product(numbers))
     numbers=numbers[1:]
-    numbers.append(int(str(num)[entry-1]))
+    numbers.append(int(str(num)[entry]))
     entry+=1
 print(max(products))
