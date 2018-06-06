@@ -24,6 +24,11 @@ num = 73167176531330624919225119674426574742355349194934
 numbers = [7,3,1,6,7,1,7,6,5,3,1,3,3]
 products = []
 
+def product(list1):
+    product = 1
+    for item in list1:
+        product = product*item
+    return(product)
+
 for i in range(1, len(num)):
-    
     
