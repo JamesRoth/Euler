@@ -34,5 +34,5 @@ for i in range(0, len(str(num))-12):
     if product(numbers) > ans:
         ans = product(numbers)
     numbers=numbers[1:]
-    numbers.append(int(str(num)[i+12]))
+    numbers.append(int(str(num)[i+13]))
 print("Product:", ans)
