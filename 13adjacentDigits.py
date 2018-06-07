@@ -32,7 +32,7 @@ def product(list1):
     return(num)
 
 for i in range(1, len(str(num))-12):
-    if product(numbers) > product:
+    if product(numbers) > ans:
         ans = product(numbers)
     numbers=numbers[1:]
     numbers.append(int(str(num)[entry]))
