@@ -26,10 +26,10 @@ entry = 13
 product = 0
 
 def product(list1):
-    product = 1
+    num = 1
     for item in list1:
-        product = product*item
-    return(product)
+        num = num*item
+    return(num)
 
 for i in range(1, len(str(num))-12):
     if product(numbers) > product:
