@@ -23,7 +23,7 @@ num = 73167176531330624919225119674426574742355349194934
 
 numbers = [7,3,1,6,7,1,7,6,5,3,1,3,3]
 entry = 13
-products = []
+product = 0
 
 def product(list1):
     product = 1
@@ -32,7 +32,8 @@ def product(list1):
     return(product)
 
 for i in range(1, len(str(num))-12):
-    products.append(product(numbers))
+    if product(numbers) > product:
+        product = product(numbers)
     numbers=numbers[1:]
     numbers.append(int(str(num)[entry]))
     entry+=1
