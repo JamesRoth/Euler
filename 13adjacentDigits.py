@@ -30,7 +30,7 @@ def product(list1):
         num = num*item
     return(num)
 
-for i in range(0, len(str(num))-12):
+for i in range(0, len(str(num))-13):
     if product(numbers) > ans:
         ans = product(numbers)
     numbers=numbers[1:]
