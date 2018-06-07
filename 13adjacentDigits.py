@@ -37,4 +37,4 @@ for i in range(1, len(str(num))-12):
     numbers=numbers[1:]
     numbers.append(int(str(num)[entry]))
     entry+=1
-print(max(products))
+print(ans)
